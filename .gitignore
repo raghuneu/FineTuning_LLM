@@ -214,4 +214,5 @@ results/
 checkpoints/
 wandb/
 
+data/*.json
 .DS_Store
