@@ -213,3 +213,5 @@ __marimo__/
 results/
 checkpoints/
 wandb/
+
+.DS_Store
