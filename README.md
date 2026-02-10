@@ -14,11 +14,11 @@ Fine-tuned transformer model for automatically extracting 6 key clause types fro
 
 ## Model Access
 
-The fine-tuned model (~320MB) is available at:
+The fine-tuned model (~320MB) is available at: https://northeastern-my.sharepoint.com/:u:/g/personal/shantharajamani_r_northeastern_edu/IQAwnblSbKbCR5ce2NOVIqeEAY_cMDrpx1ygMze5M3y_PPI?e=b0Yhpt
 
 To use the pre-trained model:
 
-1. Download and unzip `fine_tuned_distilroberta_50pct.zip`
+1. Download and unzip `fine_tuned_distilroberta_50pct.zip` inside the models folder
 2. Load with: `AutoModelForQuestionAnswering.from_pretrained("./fine_tuned_distilroberta_50pct")`
 
 from transformers import AutoTokenizer, AutoModelForQuestionAnswering
