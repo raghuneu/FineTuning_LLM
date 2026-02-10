@@ -31,7 +31,7 @@ model = AutoModelForQuestionAnswering.from_pretrained("./fine_tuned_distilrobert
 
 - `contract_extraction.ipynb` - Complete implementation
 - `Technical_Report.pdf` - Detailed analysis
-- `Video_Walkthrough.mp4` - Demo and explanation
+- [`Video_Walkthrough`](https://youtu.be/5u05ca5Iep4) - Demo and explanation
 
 ## Key Learnings
 
