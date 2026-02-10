@@ -215,5 +215,5 @@ checkpoints/
 wandb/
 
 notebooks/data/*.json
-models/*
+notebooks/models/*
 .DS_Store
