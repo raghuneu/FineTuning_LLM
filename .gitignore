@@ -214,5 +214,6 @@ results/
 checkpoints/
 wandb/
 
-data/*.json
+notebooks/data/*.json
+models/*
 .DS_Store
