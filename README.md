@@ -1,12 +1,40 @@
-# Contract Clause Extraction - LLM Fine-Tuning
+# Legal Contract Clause Extraction with DistilRoBERTa
 
-Fine-tuning a language model to extract and classify clauses from legal contracts.
+## Overview
 
-## Setup
+Fine-tuned transformer model for automatically extracting 6 key clause types from legal contracts.
 
-- Python 3.13
-- See requirements.txt for dependencies
+## Results
 
-## Dataset
+- **67% accuracy** on date extraction
+- **50% overall accuracy** across all clause types
+- Clear improvement over untrained baseline
 
-CUAD (Contract Understanding Atticus Dataset)
+## Quick Start
+
+## Model Access
+
+The fine-tuned model (~320MB) is available at:
+
+To use the pre-trained model:
+
+1. Download and unzip `fine_tuned_distilroberta_50pct.zip`
+2. Load with: `AutoModelForQuestionAnswering.from_pretrained("./fine_tuned_distilroberta_50pct")`
+
+from transformers import AutoTokenizer, AutoModelForQuestionAnswering
+
+model = AutoModelForQuestionAnswering.from_pretrained("./fine_tuned_distilroberta_50pct") tokenizer = AutoTokenizer.from_pretrained("./fine_tuned_distilroberta_50pct")
+
+# Use extract_clauses() function from notebook
+
+## Files
+
+- `contract_extraction.ipynb` - Complete implementation
+- `Technical_Report.pdf` - Detailed analysis
+- `Video_Walkthrough.mp4` - Demo and explanation
+
+## Key Learnings
+
+- Answer length significantly impacts extraction accuracy
+- Preprocessing bugs can cause training failures (`nan` loss)
+- Smaller models (DistilRoBERTa) can be effective with proper fine-tuning
