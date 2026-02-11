@@ -40,7 +40,7 @@ pip install transformers torch datasets accelerate scikit-learn
 
 **Download the fine-tuned model:**
 
-- [OneDrive Link](https://northeastern-my.sharepoint.com/:u:/g/personal/shantharajamani_r_northeastern_edu/IQAwnblSbKbCR5ce2NOVIqeEAY_cMDrpx1ygMze5M3y_PPI?e=b0Yhpt) (~320MB)
+- [HuggingFace Link](https://huggingface.co/srraghuram/roberta-cuad-clause-extraction/tree/main) (~330MB)
 
 ### Usage
 

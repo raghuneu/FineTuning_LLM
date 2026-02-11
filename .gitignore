@@ -216,4 +216,5 @@ wandb/
 
 data/*.json
 models/*
+notebooks/performance_analysis.png
 .DS_Store
